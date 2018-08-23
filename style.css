@@ -30,6 +30,7 @@ img {
 	transition: all 1s;
 }
 
+/*to create the zooming in effect animation*/
 img:hover {
 	transform: scale(1.1);
 }
