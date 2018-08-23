@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	display: flex; /*this initiates the flexbox container*/
+	flex-wrap: wrap; /*the items inside the container will wrap from top to bottom allowing the images to fit itself according to the screen size*/
+	justify-content: center; /*this defines the alignment horizontally on the screen making the row of content to distribute the items in the center */
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
